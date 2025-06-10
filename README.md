@@ -1,2 +1,1 @@
-```Clone repo 
-docker compose up```
+```Clone repo \n docker compose up```
