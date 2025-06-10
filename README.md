@@ -1,2 +1,2 @@
-#Clone repo
-##docker compose up
+```bash Clone repo```
+```bash docker compose up```
