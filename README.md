@@ -1,1 +1,31 @@
-```Clone repo then docker compose up```
+# Ссылка на сайт
+```bash
+http://188.124.39.21/
+```
+
+# Job finder service
+Сервис для размещания вакансий о работе
+
+## Используемые технологии
+- Go 1.24
+- Chi
+- PostgreSQL
+
+## Запуск
+1) Склонировать репозиторий
+```bash
+git clone
+```
+2) Перейти в папку с проектом
+3) Поднять докер контейнеры
+```bash
+docker compose up
+```
+
+## API
+- `POST /api/register` - регистрация пользователя
+- `POST /api/login` - вход с почтой и паролем
+
+- `POST /api/new-job` - создание новой вакансии
+- `POST /api/new-resume` - создаие нового резюме
+- `GET /api/jobs/{id}` - просмотр определнной вакансии
